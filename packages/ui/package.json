@@ -8,6 +8,11 @@
       "types": "./src/button.tsx",
       "import": "./dist/button.mjs",
       "require": "./dist/button.js"
+    },
+    "./theme": {
+      "types": "./src/theme/index.ts",
+      "import": "./dist/theme/index.mjs",
+      "require": "./dist/theme/index.js"
     }
   },
   "scripts": {
