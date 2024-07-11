@@ -9,7 +9,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=docs^... && changeset publish",
-    "build-storybook": "--prefix ./apps/docs run build"
+    "build-storybook": "cd ./apps/docs && npm run build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
