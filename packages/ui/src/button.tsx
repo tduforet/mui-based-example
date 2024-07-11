@@ -1,14 +1,4 @@
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
-}
+import Button, {ButtonProps} from '@mui/material/Button'
 
-export function Button({ children, ...other }: ButtonProps): JSX.Element {
-  return (
-    <button type="button" {...other}>
-      {children}
-    </button>
-  );
-}
 
-Button.displayName = "Button";
+export {Button, type ButtonProps}
