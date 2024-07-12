@@ -1,5 +1,11 @@
 # @athom/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- create and export custom components
+
 ## 0.3.0
 
 ### Minor Changes
