@@ -1,5 +1,11 @@
 # @athom/ui
 
+## 0.5.0
+
+### Minor Changes
+
+- export all mui components
+
 ## 0.4.0
 
 ### Minor Changes
