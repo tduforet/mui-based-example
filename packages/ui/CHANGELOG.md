@@ -1,5 +1,11 @@
 # @athom/ui
 
+## 0.6.0
+
+### Minor Changes
+
+- named export
+
 ## 0.5.0
 
 ### Minor Changes
