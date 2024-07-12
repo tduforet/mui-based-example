@@ -1,6 +1,6 @@
 import {ThemeProvider} from "@mui/material";
-import theme from "@athom/ui/theme";
 import {Preview} from "@storybook/react";
+import theme from "@athom/ui/theme";
 
 const preview: Preview = {
   decorators: [
@@ -15,5 +15,3 @@ const preview: Preview = {
 };
 
 export default preview;
-
-export const decorators = []

@@ -13,6 +13,11 @@
       "types": "./src/theme/index.ts",
       "import": "./dist/theme/index.mjs",
       "require": "./dist/theme/index.js"
+    },
+    "./components": {
+      "types": "./src/components/index.ts",
+      "import": "./dist/components/index.mjs",
+      "require": "./dist/components/index.js"
     }
   },
   "scripts": {
@@ -23,18 +28,20 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "eslint": "^8.57.0",
+    "@types/react": "18.2.60",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.57.0",
     "@repo/typescript-config": "*",
-    "tsup": "^8.0.2",
-    "typescript": "^5.3.3"
+    "tsup": "8.0.2",
+    "typescript": "5.4.2"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "18.2.0",
+    "react-dom": "18.0.0"
   },
   "peerDependencies": {
-    "@mui/material": "5.16.0",
+    "@mui/material": "5.15.0",
+    "@mui/icons-material": "5.15.0",
     "@emotion/styled": "11.11.5",
     "@emotion/react": "11.11.4"
   },
